@@ -1,8 +1,5 @@
 {
   "version": "6.3.0-bpol",
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "lint": "npm-run-all lint:*",
     "lint:eslint": "eslint packages",
